@@ -1,0 +1,62 @@
+<!--
+File: index.html
+Author: Varga Lilla
+Copyright: 2024, Varga Lilla
+Group: SZOFT I-1-N
+Date: 2024-03-07
+Github: https://github.com/Lilla624/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Húrnégyszög</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Húrnégyszög területe</h1>
+            <h2>0315 feladat</h2>
+        </header>
+        <main>
+            <div class="hurnegyszog">
+                <div class="input">
+                    <label for="sideA" class="form-label">A oldal</label>
+                    <input type="text" id="sideA" required class="form-control">
+                </div>
+                <div class="input">
+                    <label for="sideB" class="form-label">B oldal</label>
+                    <input type="text" id="sideB" required class="form-control">
+                </div>
+                <div class="input">
+                    <label for="sideC" class="form-label">C oldal</label>
+                    <input type="text" id="sideC" required class="form-control">
+                </div>
+                <div class="input">
+                    <label for="sideD" class="form-label">D oldal</label>
+                    <input type="text" id="sideD" required class="form-control">
+                </div>
+                <div>
+                    <button id="calcButton" class="btn btn-primary mt-2">Számít</button>
+                </div>
+                <div class="input">
+                    <label for="area" class="form-label">A húrnégyszög területe</label>
+                    <input type="text" id="area"
+                    readonly class="form-control mb-2">
+                </div>
+            </div>
+        </main>
+        <footer class="mt-1">
+            Varga Lilla, 2024, I-1-N
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
